@@ -32,8 +32,8 @@ def turn(board)
   puts "Please enter 1-9:"
   input = gets.strip
   input_to_index(input)
-  console.log(input)
-  
+puts input
+
   if valid_move?(board, index)
     move(board, index)
     display_board(board)
